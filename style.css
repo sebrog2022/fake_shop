@@ -8,10 +8,22 @@ header {
     background-color: black;
     color: white;
     display: flex;
-    padding: 30px;
+    padding: 25px;
+}
+span {
+    color: yellow;
 }
 
 .search-bar {
     flex-grow: 1;
-    min-width: 400px
+    display: flex;
+}
+
+.search-bar-input {
+    min-width: 400px;
+    font-size: 20px;
+    padding: 10px;
+
+    
+
 }
